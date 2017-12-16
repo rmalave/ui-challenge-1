@@ -1,0 +1,17 @@
+.a {
+    height: 75px;
+}
+.b {
+    height: 150px;
+}
+.c, .d {
+    height: 125px;
+}
+.e, .f, .g, .h {
+    height: 250px;
+}
+.i {
+    height: 80px;
+    clear: both;
+}
+

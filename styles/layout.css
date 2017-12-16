@@ -1,0 +1,37 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.e, .f, .g, .h {
+    width: 50%;
+    float: left;
+}
+
+.letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 0.2;
+}
+
+@media all and (min-width: 800px) {
+    .a {
+        height: 100px !important;
+    }
+    .b {
+        float: left;
+        width: 20%;
+        height: 450px !important;
+    }
+    .c, .d {
+        float: left; 
+        width: 40%; 
+        height: 200px !important;  
+    }
+    .e, .f, .g, .h {
+        width: 20%;
+    }
+    .i {
+        height: 150px !important
+    }
+}
